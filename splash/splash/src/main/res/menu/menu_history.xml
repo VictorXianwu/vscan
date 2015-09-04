@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context="com.victor.vscan.historyActivity">
+
+    <item android:id="@+id/share"
+        android:title="@string/share"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:showAsAction="never"></item>
+    
+    <item android:id="@+id/deleteItem"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:showAsAction="never"></item>
+</menu>

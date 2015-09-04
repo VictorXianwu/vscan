@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0054)http://vscan.sinaapp.com/qrcode/oZnkEiGmqmkArb5CojjFCg -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+		<title>微扫</title>
+		<style type="text/css">
+			html,
+			body {
+				height: 100%;
+				width: 100%;
+			}
+			h1 {
+				text-align: center;
+				font-size: 1.5 em;
+            }
+            
+			#show {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				text-align: left;
+				float: none;
+				background-attachment: scroll;
+				background-image: url(http://i2.tietuku.com/0ec8cb5a463c6d25.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+            }
+            #openapp{
+                position: relative;
+                text-align: right;
+				padding-right: 15%;
+                padding-bottom: 15px;
+            }
+			#content{
+				padding: 35% 5% 0;
+			}
+			#image {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			#qrcodeImage {
+				width: 80px;
+				height: 80px;
+			}
+			#border {
+				position: relative;
+				height: 70%;
+				width: 90%;
+				text-align:center;
+				margin-left:auto; 
+				margin-right:auto;
+			}
+			#footer {
+				position: fixed;
+				bottom: 0;
+                left: 0;
+				height: 10%;
+				background-color: #eee;
+				width: 100%;
+				overflow: visible;
+                z-index:999;
+			}
+			#iconImage {
+				display: inline;
+				margin-left: 50px;
+				padding-top: 10px;
+				vertical-align: middle;
+			}
+			#downloadContent {
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 30px;
+				font-size: 1.5em;
+            }
+            audio{
+                position: absolute;
+                bottom: 0;
+                margin-left: 0;
+                z-index: 100;
+
+            }
+		</style>
+		<style>
+			[touch-action="none"] {
+				-ms-touch-action: none;
+				touch-action: none;
+			}
+			[touch-action="pan-x"] {
+				-ms-touch-action: pan-x;
+				touch-action: pan-x;
+			}
+			[touch-action="pan-y"] {
+				-ms-touch-action: pan-y;
+				touch-action: pan-y;
+			}
+			[touch-action="scroll"],
+			[touch-action="pan-x pan-y"],
+			[touch-action="pan-y pan-x"] {
+				-ms-touch-action: pan-x pan-y;
+				touch-action: pan-x pan-y;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>微扫</h1>
+		<div id='openapp'><a href="vsn://vscan.com/?qrcode={{ Qrcode }}" style="text-decoration:none;color: #f0f;">在App中打开</a>
+		</div>
+		<div id="border">
+			<div id="show">
+				<div id="content" style="font-size: 1.5em;">{% raw Data %}</div>
+			</div>
+			<div id="image">
+				<img src="{{ Image }}" id="qrcodeImage" />
+			</div>
+			{% raw Audio %}
+		</div>
+		<div id="footer">
+			<img id="iconImage" src="http://i2.tietuku.com/ba066af48fa5677a.png" height="40px" />
+			<div id="downloadContent">
+				<a href="http://m.app.so.com/detail/index?pname=com.victor.vscan&id=2601019" style="text-decoration:none;color: #222; ">点击下载微扫</a>
+			</div>
+		</div>
+	</body>
+
+</html>

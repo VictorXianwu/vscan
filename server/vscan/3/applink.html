@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>App Redirection</title>
+</head>
+<body>
+  <iframe style="display:none" height="0" width="0" id="loader"></iframe>
+  <script>(function(){
+    document.getElementById('loader').src = 'vsn://vscan.com/?qrcode={{ Qrcode }}';
+    fallbackLink ='http://m.app.so.com/detail/index?pname=com.victor.vscan' ;
+    window.setTimeout(function (){ window.location.replace(fallbackLink); }, 3000);
+  })();</script>
+</body>
+</html>
+
+

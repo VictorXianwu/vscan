@@ -1,0 +1,59 @@
+# -*- coding:utf-8 -*-
+import tornado.web
+from tornado.httpclient import AsyncHTTPClient
+import json
+import urllib
+from Crypto.Cipher import AES
+import base64
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+PADDING = '\0'
+
+def desEncrypt(crypted):
+    key = 'xianwuVictor2134'
+    iv = '1234567812345678'
+    decrypten = base64.b64decode(crypted)
+    generator = AES.new(key, AES.MODE_CBC, iv)
+    recovery = generator.decrypt(crypt)
+    return recovery.rstrip(PADDING).decode('UTF-8')
+
+def get_att(qrcode):
+    f=urllib.urlopen("http://linxianwu.sinaapp.com/qrcode/"+qrcode)
+    return_str = f.read()
+    s=json.loads(return_str)
+    return s
+
+class MainHandler(tornado.web.RequestHandler):
+    @tornado.web.asynchronous
+    def get(self):
+        self.write("This is linxianwu's website")
+        self.finish()
+
+    def _callback(self, response):
+        self.write(response.body)
+        self.finish()
+        
+class QrCode(tornado.web.RequestHandler):
+    def get(self,uuid):
+        data = get_att(uuid)
+        status = data["status"]
+        if status == "error":
+           self.render("index.html", Data = "二维码错误！")
+        elif status == "blank":
+            self.render("index.html", Data = "空的二维码")
+        elif status == "used":
+            self.render("index.html", Data = desEncrypt(data["data"]))
+
+
+settings = {
+    "debug": True,
+}
+
+# application should be an instance of `tornado.web.Application`,
+# and don't wrap it with `sae.create_wsgi_app`
+application = tornado.web.Application([
+    (r"/", MainHandler),
+    (r'/qrcode/(\S+)', QrCode),
+], **settings)

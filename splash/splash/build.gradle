@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.victor.vscan"
+        minSdkVersion 9
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':barcodeScanner')
+    compile files('src/main/libs/SocialSDK_QQZone_1.jar')
+    compile files('src/main/libs/SocialSDK_QQZone_2.jar')
+    compile files('src/main/libs/SocialSDK_QQZone_3.jar')
+    compile files('src/main/libs/SocialSDK_Sina.jar')
+    compile files('src/main/libs/SocialSDK_tencentWB_1.jar')
+    compile files('src/main/libs/SocialSDK_tencentWB_2.jar')
+    compile files('src/main/libs/SocialSDK_tencentWB_3.jar')
+    compile files('src/main/libs/SocialSDK_WeiXin_1.jar')
+    compile files('src/main/libs/SocialSDK_WeiXin_2.jar')
+    compile files('src/main/libs/umeng_social_sdk.jar')
+    compile files('src/main/libs/android-support-v4.jar')
+    compile files('src/main/libs/httpmime-4.1.3.jar')
+    compile files('src/main/libs/armeabi.jar')
+    compile files('src/main/libs/flame.jar')
+}

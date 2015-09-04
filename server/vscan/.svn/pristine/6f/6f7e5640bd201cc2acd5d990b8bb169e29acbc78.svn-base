@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>微扫</title>
+		<style type="text/css">
+			html,body{
+                height: 100%;
+                width: 100%;
+            }
+			h1 {
+				text-align: center;
+				padding-top: 10% font-size: 1.5 em;
+			}
+			#show {
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				text-align: left;
+				float:none;
+				padding-top: 10%;
+				padding-left: 4%;
+				padding-right: 3%;
+				background-attachment: scroll;
+				background-image: url(http://ww1.sinaimg.cn/bmiddle/82695c99jw1eory8slntmj20ca0hegm3.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 2 em;
+			}
+			#image{
+				position:absolute;
+				right: 10%;
+				bottom: 10%;
+			}
+			#qrcodeImage {
+				width: 80px;
+				height: 80px;
+			}
+			#border{
+				position:relative;
+				height: 60%;
+				width: 70%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			#footer{
+				position:absolute;  
+  				bottom:0;
+  				height:10%;
+  				background-color:#EDEDED;  
+  				width:100%;
+  				text-align: left;
+  				overflow: hidden;
+			}
+			#iconImage{
+				margin-left: 50px;
+				vertical-align:middle;
+			}
+			#downloadContent{
+				display:inline;
+				vertical-align:middle;
+				margin-left: 30px;
+				font-size: 1.5em;
+			}
+			 #block {
+        		width: 0px;
+        		height: 60%;
+    		}
+		</style>
+	</head>
+
+	<body>
+		<h1>微扫</h1>
+		<div id="border">
+			<div id="show">{{ Data }}</div>
+			<div id="image">
+				<img src="{{ Image }}" id="qrcodeImage" />
+			</div>
+		</div>
+		<div id="footer">
+			<img id="iconImage" src="./微扫_files/vscan_icon.png" height="40px" "/>
+				<img src=" " id="block "/>
+				<div id="downloadContent "><a href="http://m.app.so.com/detail/index?pname=com.victor.vscan&id=2601019 "style="text-decoration:none;color: #0000FF; ">点击下载微扫</a></div>
+			</div>
+</body>
+</html>

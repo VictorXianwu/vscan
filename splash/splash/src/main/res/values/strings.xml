@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微扫</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_history">查看</string>
+    <string name="title_activity_add">添加</string>
+    <string name="title_activity_start">startActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash">微扫</string>
+    <string name="action_delete">删除</string>
+    <string name="dbString">/data/data/com.victor.vscan/qr.db</string>
+    <string name="title_activity_free">获取二维码</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="share">分享</string>
+    <string name="qrcodeapi">http://linxianwu.sinaapp.com/qrcode/</string>
+</resources>

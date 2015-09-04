@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d57cae1dcd1eeeec2cd8197fcdd7a0316216481e">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_QQZone_3-0cb6528ff36ceadd9d64cb63ff251389f7becbaa.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_QQZone_1-048793f57f9b63a88d79b0b99ad8053b84bb947d.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\exploded-aar\splash\barcodeScanner\unspecified\libs\android-core-3.1.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\android-core-3.1.1-SNAPSHOT-113de93dcddd2ca31bcd391ed39f4d3fe1e45a6d.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\exploded-aar\splash\barcodeScanner\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e7c17b3e6227d5b65037bbf39dd2779eeb974bda">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\classes-9f174c08d4b5159474f8b965c855e1ac2b79d9b5.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\armeabi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="48320c07ccbb4a305dcfe49a93c6d2c1f05ff5b4">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\armeabi-c23e92b9bb1f00ccbe8a76b592f8046c0e1392b7.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\exploded-aar\splash\barcodeScanner\unspecified\libs\core-3.1.1-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\core-3.1.1-SNAPSHOT-be9ac66aad61cf76595fe78abfccf43822237809.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\flame.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a32ff0d1c92c6755909eabc14d44db2a2c026ed9">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\flame-5417d6a12d05a54c82fe6e054d13ea7553f6aa9b.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_tencentWB_1-e8b668625966184b2593738f039d78100faef053.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="fd07c18d274be387922d55964e04cb418133c80f">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_Sina-053f53adf56199e8fdd632e246f23d61668adf6b.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_QQZone_2-4debb41c8d0cfd24fa7f0d6c83bf0f17079337d8.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\httpmime-4.1.3-7bcd08efa426a82b9e54b37e8ce8e63f4373f332.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="5a01801b9f9f7236ef08979eb31fd678a07c3742">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_tencentWB_3-cedfaf704537b5d640bcdb0f4b60e09ddda9cf57.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_WeiXin_2-c0ffab9a630cc8678e781374b9658f60c4f3a4f2.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\android-support-v4-fd2cbf8acea5982b60ff559aecd2e665ec9aa399.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_WeiXin_1-8cee9e4897d396b10a66ebb87d20ea2a5100f0bd.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\umeng_social_sdk-d8dd0edca8c90aa93a5366ef3e8642e89319c6b3.jar" />
+    </item>
+    <item
+        jar="E:\Program\AndroidStudioProjects\splash\splash\src\main\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="E:\Program\AndroidStudioProjects\splash\splash\build\intermediates\pre-dexed\release\SocialSDK_tencentWB_2-6030f5e67f80817dcb85b565142cd377d0388a24.jar" />
+    </item>
+
+</items>

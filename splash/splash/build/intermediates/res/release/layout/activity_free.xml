@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2b9ddff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="微扫"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:id="@+id/qrImage"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#ffffffff" />
+
+
+    <Button
+        android:id="@+id/btUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="使用"
+        android:textSize="18sp"
+        android:background="@drawable/bt_seleter"
+        android:onClick="OnClick_Event"
+        android:layout_alignParentLeft="false"/>
+
+
+</RelativeLayout>
+<!-- From: file:/E:/Program/AndroidStudioProjects/splash/splash/src/main/res/layout/activity_free.xml -->

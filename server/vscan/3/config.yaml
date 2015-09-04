@@ -1,0 +1,8 @@
+name: vscan
+version: 1
+
+worker: tornado
+
+libraries:
+- name: PyCrypto
+  version: "2.6"
